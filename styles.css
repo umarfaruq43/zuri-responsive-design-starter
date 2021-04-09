@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif; 
+  font-family: "Rubik", sans-serif;
 }
 
 div.nav-bar {
@@ -14,7 +14,9 @@ div.nav-bar {
   padding: 1rem 6rem;
   width: 100%;
   background: #304353;
+  position: relative;
 }
+
 
 div.logo {
   font-size: 1.5rem;
@@ -44,7 +46,9 @@ ul li a:hover {
   background: #fff;
   padding: 0.5rem;
 }
-
+.icon{
+  display: none;
+}
 div.hero-section {
   background: #304353;
   padding: 10rem;
